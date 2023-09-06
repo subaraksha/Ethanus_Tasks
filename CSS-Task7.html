@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        label{
+            display: inline-block;
+            width:120px;
+            color:white;
+        }
+        form{
+            margin: 20px 400px 20px 400px;
+            padding:20px;
+            background-color: rgb(120,36,60);
+            width:400px;
+            height:400px;
+            padding-left: 140px;
+        }
+        body{
+            background-color: rgba(162,43,85,255);
+        }
+        input[type=submit]{
+            height: 30px;
+            width:25em;
+            font-weight: bold;
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="n" placeholder="your name"><br>
+        <br>
+        <label>Email:</label>
+        <input type="text" name="em" placeholder="your email"><br>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="pwd"><br>
+        <br>
+        <label>Phone Number:</label>
+        <input type="text" name="phn"><br>
+        <br>
+        <label>Gender:</label>
+        <span style="color:white;">Male: <input type="radio" name="gen"> Female:<input type="radio" name="gen"> Other:<input type="radio" name="gen"></span><br>
+        <br>
+        <label>language</label>
+        <select name="lang">
+            <option selected>Select language</option>
+            <option>English</option>
+            <option>Telugu</option>
+            <option>Tamil</option>
+            <option>Hindi</option>
+        </select><br>
+        <br>
+        <label>Zip Code:</label>
+        <input type="text" name="zip"><br>
+        <br>
+        <label>About:</label>
+        <textarea placeholder="Write about yourself" rows="3" columns="30"></textarea><br>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

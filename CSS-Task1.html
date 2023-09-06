@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+    <style>
+        table{
+            margin:100px 0px 0px 0px;
+            width:80vw;
+            background-color: skyblue;
+        }
+        table,td,th{
+            border:solid 1px black;
+            border-radius: 10px;
+        }
+        .shapes{
+            display: grid;
+            grid-gap: 2px;
+            grid-template-areas: 
+            'one two three'
+            'four five six'
+            'seven eight nine';
+            height: 300px;
+            width: 300px;
+            margin-left: 400px;
+        }
+        .one{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: one;
+            border-radius: 5px;
+        }
+        .two{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: two;
+            border-radius: 8px;
+        }
+        .three{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: three;
+            border-radius: 20px;
+        }
+        .four{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: four;
+            border-radius: 10px;
+        }
+        .five{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: five;
+        }
+        .six{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: six;
+            border-radius: 25px;
+        }
+        .seven{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: seven;
+            border-radius: 50px;
+        }
+        .eight{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: eight;
+            border-radius: 12px;
+        }
+        .nine{
+            border: solid 2px green;
+            height: 80px;
+            width: 80px;
+            grid-area: nine;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    </div>
+    <div class="shapes">
+        <div><p class="one"></p></div>
+        <div><p class="two"></p></div>
+        <div><p class="three"></p></div>
+        <div><p class="four"></p></div>
+        <div><p class="five"></p></div>
+        <div><p class="six"></p></div>
+        <div><p class="seven"></p></div>
+        <div><p class="eight"></p></div>
+        <div><p class="nine"></p></div>
+    </div>
+</body>
+</html>

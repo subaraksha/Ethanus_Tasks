@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        .ver{
+            display: grid;
+            border: 1.5px solid black;
+            padding:10px;
+            height: 200px;
+            width:15vw;
+            grid-template-areas:
+            'Home'
+            'Java'
+            'CSS'
+            'HTML'
+            'Bootstrap';
+            padding-bottom: 0px;
+            font-weight: bold;
+        }
+        .v1{
+            padding:5px;
+            grid-area:Home;
+            background-color: orange;
+            color:white;
+        }
+        .v2{
+            padding:5px;
+            grid-area:Java;
+            background-color: skyblue;
+            color: blue;
+        }
+        .v3{
+            padding:5px;
+            grid-area:CSS;
+            background-color: skyblue;
+            color: blue
+        }
+        .v4{
+            padding:5px;
+            grid-area:HTML;
+            background-color: skyblue;
+            color: blue
+        }
+        .v5{
+            padding:5px;
+            grid-area:Bootstrap;
+            background-color: skyblue;
+            color: blue
+        }
+
+        .hori{
+            display: grid;
+            border: 1.5px solid black;
+            padding:10px;
+            height: 30px;
+            width: 400px;
+            grid-template-areas:
+            'Home Java CSS HTML Bootstrap';
+            font-weight: bold;
+            padding-right: 0px;
+        }
+        .h1{
+            padding:5px;
+            grid-area:Home;
+            background-color: grey;
+            color:white;
+            border-right: 1px solid blue;
+        }
+        .h2{
+            padding:5px;
+            grid-area:Java;
+            background-color: lightgray;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+        .h3{
+            padding:5px;
+            grid-area:CSS;
+            background-color: lightgray;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+        .h4{
+            padding:5px;
+            grid-area:HTML;
+            background-color: lightgray;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+        .h5{
+            padding:5px;
+            grid-area:Bootstrap;
+            background-color: lightgray;
+            color: blue;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <div class="ver">
+        <div class="v1">Home</div>
+        <div class="v2">Java</div>
+        <div class="v3">CSS</div>
+        <div class="v4">HTML</div>
+        <div class="v5">Bootstrap</div>
+    </div>
+    <br>
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="hori">
+        <div class="h1">Home</div>
+        <div class="h2">Java</div>
+        <div class="h3">CSS</div>
+        <div class="h4">HTML</div>
+        <div class="h5"></div>
+    </div>
+</body>
+</html>
